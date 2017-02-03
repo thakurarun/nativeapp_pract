@@ -1,0 +1,14 @@
+{
+    "typescript.check.workspaceVersion": false,
+    "files.exclude": {
+        "**/*.css": {
+            "when": "$(basename).scss"
+        },
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.map": {
+            "when": "$(basename).map"
+        }
+    }
+}
